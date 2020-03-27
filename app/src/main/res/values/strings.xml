@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">AppCopy</string>
+    <string name="init">Initializing...</string>
+    <string name="init_finish">Initialization completed !</string>
+    <string name="init_failed">Initialization failed !</string>
+
+    <!--应用列表相关-->
+    <string name="title_master">Installed Apps</string>
+    <string name="title_customer">Copied Apps</string>
+
+    <!--安装卸载相关-->
+    <string name="process_install">Installing...</string>
+    <string name="process_uninstall">Uninstalling...</string>
+    <string name="install_success">Install Success!</string>
+    <string name="install_fail">Install Failed!</string>
+    <string name="uninstall_success">Uninstall Success!</string>
+    <string name="uninstall_fail">Uninstall Failed!</string>
+
+    <!--对话框相关-->
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_install_title">Copy App</string>
+    <string name="dialog_install_content_pre">Do you want to copy </string>
+    <string name="dialog_install_content_back"> to shadow user?</string>
+    <string name="dialog_uninstall_title">Uninstall App</string>
+    <string name="dialog_uninstall_content_pre">Do you want to delete </string>
+    <string name="dialog_uninstall_content_back"> from shadow user?</string>
 </resources>

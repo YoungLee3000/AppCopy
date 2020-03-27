@@ -1,0 +1,10 @@
+<?xml version = "1.0"   encoding = "utf-8"?>
+<selector   xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="20px"
+    android:layout_width="20px">
+    <item android:state_expanded = "false"
+        android:drawable = "@drawable/expand_f"
+        />
+    <item android:state_expanded = "true"
+        android:drawable = "@drawable/expand_t"/>
+</selector >

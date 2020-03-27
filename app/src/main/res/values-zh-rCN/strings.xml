@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">应用分身</string>
+    <string name="init">初始化中...</string>
+    <string name="init_finish">初始化完成 !</string>
+    <string name="init_failed">初始化失败 !</string>
+    <!--应用列表相关-->
+    <string name="title_master">已安装的应用</string>
+    <string name="title_customer">已复制的应用</string>
+    <!--安装卸载相关-->
+    <string name="process_install">安装中...</string>
+    <string name="process_uninstall">卸载中...</string>
+    <string name="install_success">安装成功!</string>
+    <string name="install_fail">安装失败!</string>
+    <string name="uninstall_success">卸载成功!</string>
+    <string name="uninstall_fail">卸载失败!</string>
+
+    <!--对话框相关-->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_install_title">复制应用</string>
+    <string name="dialog_install_content_pre">是否将 </string>
+    <string name="dialog_install_content_back"> 复制到子用户？</string>
+    <string name="dialog_uninstall_title">卸载应用</string>
+    <string name="dialog_uninstall_content_pre">是否将 </string>
+    <string name="dialog_uninstall_content_back"> 从子用户中删除？</string>
+
+</resources>

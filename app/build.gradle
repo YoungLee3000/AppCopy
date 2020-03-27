@@ -15,9 +15,11 @@ android {
         applicationId "com.nlscan.android.appcopy"
         minSdkVersion 24
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 6
+        versionName "1.6"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
     }
     buildTypes {
         release {
@@ -30,6 +32,24 @@ android {
             signingConfig signingConfigs.config
         }
     }
+
+    //打包后应用名称
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            def fileName
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                if (variant.buildType.name.equals('release')) {//如果是release包
+                    fileName = "AppCopy_v${defaultConfig.versionName}.apk"
+                } else if (variant.buildType.name.equals('debug')) {//如果是debug包
+                    fileName = "AppCopy_v${defaultConfig.versionName}.apk"
+                }
+                outputFileName = fileName
+            }
+        }
+    }
+
+
 }
 
 dependencies {
